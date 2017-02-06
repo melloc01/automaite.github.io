@@ -1,0 +1,26 @@
+<nav class="nav has-shadow">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item" href="/">
+        autom<strong class="text-primary">ai</strong>te
+      </a>
+      <a class="nav-item is-tab is-hidden-mobile {% if page.id == 'styleguide' %}{{ 'is-active' }}{% endif %}" href="/styleguide">Styleguide</a>
+      <a class="nav-item is-tab is-hidden-mobile {% if page.id == 'components' %}{{ 'is-active' }}{% endif %}" href="/styleguide/components">Components</a>
+      <a class="nav-item is-tab is-hidden-mobile {% if page.id == 'layout-components' %}{{ 'is-active' }}{% endif %}" href="/styleguide/layout-components">Layout Components</a>
+      <a class="nav-item is-tab is-hidden-mobile {% if page.id == 'typography' %}{{ 'is-active' }}{% endif %}" href="/styleguide/typography">Typography</a>
+      <a class="nav-item is-tab is-hidden-mobile {% if page.id == 'variables' %}{{ 'is-active' }}{% endif %}" href="/styleguide/variables">Variables</a>
+    </div>
+    <span class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div class="nav-right nav-menu">
+      <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
+      <a class="nav-item is-tab is-hidden-tablet">Features</a>
+      <a class="nav-item is-tab is-hidden-tablet">Pricing</a>
+      <a class="nav-item is-tab is-hidden-tablet">About</a>
+      <!-- <a class="nav-item is-tab">Log out</a> -->
+    </div>
+  </div>
+</nav>
