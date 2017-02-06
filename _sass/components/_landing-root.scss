@@ -12,11 +12,12 @@ body.root {
 
 .root-container {
   text-align: center;
+  margin-bottom: 8%;
 
   > div {
     text-align: center;
-    margin-bottom: 2em;
   }
+
   h1 {
     color: #444;
     font-weight: 200;
@@ -25,17 +26,6 @@ body.root {
 
     span {
       font-weight: bold;
-    }
-  }
-  small {
-    font-size: 0.8em;
-  }
-  ul {
-    display: flex;
-    justify-content: center;
-
-    li {
-      margin: .5em;
     }
   }
 }
