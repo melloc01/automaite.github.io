@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" sizes="57x57" href="/bulma.ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/bulma.ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/bulma.ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/bulma.ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/bulma.ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/bulma.ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/bulma.ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/bulma.ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/bulma.ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/bulma.ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/bulma.ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/bulma.ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/bulma.ico/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/bulma.ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" href="/css/master.css">
+
+  <title>Automaite Styleguide</title>
+  <meta name="description" content="Automaite's website">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Automaite Styleguide" href="http://localhost:4000/feed.xml">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+    <nav class="nav has-shadow">
+  <div class="container">
+    <div class="nav-left">
+      <a class="nav-item">
+        autom<strong class="text-primary">ai</strong>te
+      </a>
+      <a class="nav-item is-tab is-hidden-mobile is-active" href="/">Styleguide</a>
+      <a class="nav-item is-tab is-hidden-mobile" href="/typography">Typography</a>
+      <a class="nav-item is-tab is-hidden-mobile" href="/variables">Variables</a>
+    </div>
+    <span class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div class="nav-right nav-menu">
+      <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
+      <a class="nav-item is-tab is-hidden-tablet">Features</a>
+      <a class="nav-item is-tab is-hidden-tablet">Pricing</a>
+      <a class="nav-item is-tab is-hidden-tablet">About</a>
+      <!-- <a class="nav-item is-tab">Log out</a> -->
+    </div>
+  </div>
+</nav>
+
+
+    <div class="page-container container">
+      <section class="intro">
+    <h1 class="title is-1">
+      Automaite CSS Styleguide
+    </h1>
+    <p>
+      The CSS Styleguide is based on the <a href="http://bulma.io/documentation" target="_blank">Bulma framework</a>.
+    </p>
+</section>
+
+<section class="buttons">
+
+  <section>
+    <br>
+    <h2 class="title is-2">Navigation - Header</h2>
+    <strong>Recipe Header</strong>
+    <div class="component-container">
+      <nav class="nav has-shadow">
+        <div class="container">
+          <div class="nav-left">
+            <a class="nav-item">
+              <strong>Recipe name</strong>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <strong>Landing header</strong>
+    <div class="component-container">
+      <nav class="nav has-shadow">
+        <div class="container">
+          <div class="nav-left">
+            <a class="nav-item">
+              <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+            </a>
+            <a class="nav-item is-tab is-hidden-mobile is-active">Home</a>
+            <a class="nav-item is-tab is-hidden-mobile">Features</a>
+            <a class="nav-item is-tab is-hidden-mobile">Pricing</a>
+            <a class="nav-item is-tab is-hidden-mobile">About</a>
+          </div>
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <div class="nav-right nav-menu">
+            <a class="nav-item is-tab is-hidden-tablet is-active">Home</a>
+            <a class="nav-item is-tab is-hidden-tablet">Features</a>
+            <a class="nav-item is-tab is-hidden-tablet">Pricing</a>
+            <a class="nav-item is-tab is-hidden-tablet">About</a>
+            <a class="nav-item is-tab">
+              <figure class="image is-16x16" style="margin-right: 8px;">
+                <img src="http://bulma.io/images/jgthms.png">
+              </figure>
+              Profile
+            </a>
+            <a class="nav-item is-tab">Log out</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section>
+    <br>
+    <h2 class="title is-2">Buttons</h2>
+    <p class="subtitle is-5">Button styles</p>
+
+    <div class="block">
+      <a class="button">Button</a>
+      <a class="button is-white">White</a>
+      <a class="button is-light">Light</a>
+      <a class="button is-dark">Dark</a>
+      <a class="button is-black">Black</a>
+      <a class="button is-link">Link</a>
+    </div>
+    <div class="block">
+      <a class="button is-primary">Primary</a>
+      <a class="button is-info">Info</a>
+      <a class="button is-success">Success</a>
+      <a class="button is-warning">Warning</a>
+      <a class="button is-danger">Danger</a>
+    </div>
+    <br>
+    <br>
+
+    <p class="subtitle is-5">Button states</p>
+
+    <a class="button is-primary is-outlined">
+      Button
+    </a>
+    <a class="button is-primary is-loading">
+      Button
+    </a>
+    <a class="button is-primary is-disabled">
+      Button
+    </a>
+    <br>
+    <br>
+
+    <p class="subtitle is-5">Button with icon</p>
+    <p class="control">
+      <a class="button">
+        <span class="icon is-small">
+          <i class="fa fa-bold"></i>
+        </span>
+      </a>
+      <a class="button">
+        <span class="icon is-small">
+          <i class="fa fa-italic"></i>
+        </span>
+      </a>
+      <a class="button">
+        <span class="icon is-small">
+          <i class="fa fa-underline"></i>
+        </span>
+      </a>
+    </p>
+    <p class="control">
+      <a class="button">
+        <span class="icon">
+          <i class="fa fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </a>
+      <a class="button is-primary">
+        <span class="icon">
+          <i class="fa fa-twitter"></i>
+        </span>
+        <span>Twitter</span>
+      </a>
+      <a class="button is-success">
+        <span class="icon is-small">
+          <i class="fa fa-check"></i>
+        </span>
+        <span>Save</span>
+      </a>
+      <a class="button is-danger is-outlined">
+        <span>Delete</span>
+        <span class="icon is-small">
+          <i class="fa fa-times"></i>
+        </span>
+      </a>
+    </p>
+    <p class="control">
+      <a class="button is-small">
+        <span class="icon is-small">
+          <i class="fa fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </a>
+      <a class="button">
+        <span class="icon">
+          <i class="fa fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </a>
+      <a class="button is-medium">
+        <span class="icon">
+          <i class="fa fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </a>
+      <a class="button is-large">
+        <span class="icon is-medium">
+          <i class="fa fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </a>
+    </p>
+
+    <br>
+    <br>
+    <p class="subtitle is-5">Button sizes</p>
+
+    <a class="button is-small">
+      Button
+    </a>
+    <a class="button">
+      Button
+    </a>
+    <a class="button is-medium">
+      Button
+    </a>
+    <a class="button is-large">
+      Button
+    </a>
+
+    <br>
+    <br>
+    <p class="subtitle is-5">Button Group</p>
+    <div class="control is-grouped">
+      <p class="control has-addons">
+        <a class="button">
+          <span class="icon is-small">
+            <i class="fa fa-bold"></i>
+          </span>
+          <span>Bold</span>
+        </a>
+        <a class="button">
+          <span class="icon is-small">
+            <i class="fa fa-italic"></i>
+          </span>
+          <span>Italic</span>
+        </a>
+        <a class="button">
+          <span class="icon is-small">
+            <i class="fa fa-underline"></i>
+          </span>
+          <span>Underline</span>
+        </a>
+      </p>
+      <p class="control has-addons">
+        <a class="button">
+          <span class="icon is-small">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span>Left</span>
+        </a>
+        <a class="button">
+          <span class="icon is-small">
+            <i class="fa fa-align-center"></i>
+          </span>
+          <span>Center</span>
+        </a>
+        <a class="button">
+          <span class="icon is-small">
+            <i class="fa fa-align-right"></i>
+          </span>
+          <span>Right</span>
+        </a>
+      </p>
+    </div>
+
+  </section>
+  <section>
+    <br>
+    <h2 class="title is-2">Box</h2>
+    <div class="box is-half column">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img src="http://bulma.io/images/placeholders/128x128.png" alt="Image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+              <br>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+            </p>
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              <a class="level-item">
+                <span class="icon is-small"><i class="fa fa-reply"></i></span>
+              </a>
+              <a class="level-item">
+                <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+              </a>
+              <a class="level-item">
+                <span class="icon is-small"><i class="fa fa-heart"></i></span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section>
+    <br>
+    <h2 class="title is-2">Notification</h2>
+    <div class="columns">
+
+      <div class="column">
+        <div class="notification">
+          <button class="delete"></button>
+          Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit lorem ipsum dolor sit amet,
+          consectetur adipiscing elit
+        </div>
+
+        <div class="notification is-primary">
+          <button class="delete"></button>
+          Primar lorem ipsum dolor sit amet, consectetur
+          adipiscing elit lorem ipsum dolor sit amet,
+          consectetur adipiscing elit
+        </div>
+
+        <div class="notification is-info">
+          <button class="delete"></button>
+          Info lorem ipsum dolor sit amet, consectetur
+          adipiscing elit lorem ipsum dolor sit amet,
+          consectetur adipiscing elit
+        </div>
+      </div>
+      <div class="column">
+        <div class="notification is-success">
+          <button class="delete"></button>
+          Success lorem ipsum dolor sit amet, consectetur
+          adipiscing elit lorem ipsum dolor sit amet,
+          consectetur adipiscing elit
+        </div>
+
+        <div class="notification is-warning">
+          <button class="delete"></button>
+          Warning lorem ipsum dolor sit amet, consectetur
+          adipiscing elit lorem ipsum dolor sit amet,
+          consectetur adipiscing elit
+        </div>
+
+        <div class="notification is-danger">
+          <button class="delete"></button>
+          Danger lorem ipsum dolor sit amet, consectetur
+          adipiscing elit lorem ipsum dolor sit amet,
+          consectetur adipiscing elit
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <br>
+    <h2 class="title is-2">Tags</h2>
+    <p class="subtitle is-5">Tag styles</p>
+
+    <span class="tag is-black">Black</span>
+    <span class="tag is-dark">Dark</span>
+    <span class="tag is-light">Light</span>
+    <span class="tag is-white">White</span>
+    <span class="tag is-primary">Primary</span>
+    <span class="tag is-info">Info</span>
+    <span class="tag is-success">Success</span>
+    <span class="tag is-warning">Warning</span>
+    <span class="tag is-danger">Danger</span>
+    <br/>
+    <br>
+    <p class="subtitle is-5">Tags size icon</p>
+    <span class="tag is-success">
+      Bar
+      <button class="delete is-small"></button>
+    </span>
+    <span class="tag is-warning is-medium">
+      Hello
+      <button class="delete is-small"></button>
+    </span>
+    <span class="tag is-danger is-large">
+      World
+      <button class="delete"></button>
+    </span>
+  </section>
+</section>
+
+    </div>
+
+
+    <footer>
+
+
+</footer>
+
+<!-- <p>Automaite's website</p> -->
+
+
+  </body>
+
+</html>
