@@ -27,7 +27,7 @@ layout: styleguide-fluid
     <strong>Landing nav</strong>
   </div>
   <div class="component-container">
-    <nav class="nav has-shadow">
+    <nav class="nav">
       <div class="container">
         <div class="nav-left">
           <a class="nav-item">
@@ -67,18 +67,6 @@ layout: styleguide-fluid
     <strong>Recipe's landing page header</strong>
   </div>
   <div class="component-container">
-    <section class="hero hero-recipe is-large" style="background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=1920%C3%971080&w=1920&h=1080')">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-4">
-              <h1 class="title is-2">Find all your receipts <br> in minutes</h1>
-              <p class="is-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                quis  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    {% include recipe/hero.html %}
   </div>
 </section>
