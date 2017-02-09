@@ -3,12 +3,17 @@ html,body {
   display: flex;
   width: 100%;
   flex-direction: column;
+  color: $grey-darker;
 }
+
 .text-primary {
   color: $primary;
 }
-.text-hidden {
-  opacity: 0;
+
+.has-mobile-centered-text {
+  @include mobile {
+    text-align: center;
+  };
 }
 
 .page-container {
@@ -33,4 +38,10 @@ html,body {
     height: 18px;
     margin-right: 5px;
     width: 18px;
+}
+
+
+.layout-gutter {
+  padding-left: 20px;
+  padding-right: 20px;
 }

@@ -1,48 +1,9 @@
-.nav-item {
-  font-weight: 900;
+html.root,
+body.root,
+footer.footer {
+    background-color: $white;
 }
 
-.Hero--root {
-  @extend .box;
-  margin-bottom: 0 !important;
-
-  .columns {
-    padding: 2em 0;
-  }
-
-  .title {
-    font-weight: bold;
-
-  }
-  ul {
-    font-size: 16px;
-    margin-top: 1.5em;
-
-    li:not(:last-of-type) {
-      margin: 0.6em 0;
-    }
-  }
-  button {
-    margin-top: 1.5em;
-  }
-}
-
-section.cards.cards--root {
-  margin: 2.5em 0;
-
-  .card {
-    width: 100%;
-    .card-footer {
-      padding: 1em 20px;
-      border: 0;
-      em {
-        font-size: 0.85em;
-        float: right;
-        margin-top: 0.3em;
-      }
-    }
-  }
-}
-
-footer.footer--root {
+.Hero.Hero--root {
+  box-shadow: none;
 }

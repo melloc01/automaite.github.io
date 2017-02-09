@@ -1,0 +1,85 @@
+a.nav-item {
+  font-size: 1.5em;
+  color: $grey-darker;
+}
+
+.Hero {
+  @extend .box;
+  margin-bottom: 0 !important;
+
+  .columns {
+    align-items: center;
+  }
+
+  p {
+    color: $grey-darker;
+  }
+
+  .title {
+    font-weight: bold;
+
+  }
+
+  .image-container {
+
+      @include tablet {
+        text-align: right;
+        img {
+          width: 75%;
+        }
+      };
+
+  }
+
+  ul {
+    font-size: 16px;
+    margin-top: 1.5em;
+
+    li:not(:last-of-type) {
+      margin: 0.6em 0;
+    }
+  }
+  button {
+    margin-top: 1.5em;
+  }
+}
+
+section.cards {
+  @extend .layout-gutter;
+
+  margin: 2.5em 0;
+  .card {
+    width: 100%;
+    .card-footer {
+      padding: 1em 20px;
+      border: 0;
+      em {
+        font-size: 0.85em;
+        margin-top: 0.3em;
+      }
+    }
+  }
+}
+
+.Steps {
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+  .column {
+    display: flex;
+    align-items: center;
+    color: $grey-darker;
+
+    > div {
+        padding: 14px
+    }
+  }
+  .Steps__number {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+
+  .Steps__text {
+
+  }
+}

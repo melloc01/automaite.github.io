@@ -1,5 +1,25 @@
-.hero-recipe {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav.nav--receipts {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.Hero.Hero--receipts {
+  padding-top: 8em;
+  background-image: url('../assets/img/receipts-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  .Hero--root__text-container {
+    margin-top: 0;
+  }
+}
+
+
+section.cards.cards--recipe {
+  .card-footer {
+    justify-content: flex-end;
+  }
 }
