@@ -1,11 +1,18 @@
 a.nav-item {
-  font-size: 1.5em;
   color: $grey-darker;
 }
 
 .Hero {
   @extend .box;
-  margin-bottom: 0 !important;
+  padding-top: 1.5em;
+
+  @include tablet {
+    padding-top: 0;
+  };
+
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+
 
   .columns {
     align-items: center;
@@ -25,7 +32,7 @@ a.nav-item {
       @include tablet {
         text-align: right;
         img {
-          width: 75%;
+          width: 85%;
         }
       };
 
@@ -39,8 +46,13 @@ a.nav-item {
       margin: 0.6em 0;
     }
   }
-  button {
-    margin-top: 1.5em;
+  a {
+    margin: 2em auto;
+
+    @include tablet {
+      margin: 1.5em 0;
+    };
+
   }
 }
 

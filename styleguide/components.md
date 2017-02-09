@@ -1,5 +1,7 @@
 ---
 layout: styleguide
+base: ../../
+id: components
 ---
 <section class="intro">
     <h1 class="title is-1">

@@ -1,6 +1,7 @@
 ---
 layout: styleguide
 id: variables
+base: ../../
 ---
 
 <section class="buttons">

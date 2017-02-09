@@ -1,5 +1,7 @@
 ---
 layout: styleguide-fluid
+base: ../../
+id: layout-components
 ---
 <section>
   <div class="intro container">

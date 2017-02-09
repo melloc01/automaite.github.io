@@ -1,6 +1,7 @@
 ---
 layout: styleguide
 id: typography
+base: ../../
 ---
 
 <h1 class="title is-1">Font</h1>
