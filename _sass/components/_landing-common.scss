@@ -46,13 +46,21 @@ a.nav-item {
       margin: 0.6em 0;
     }
   }
-  a {
+
+  .control.hero-action {
+      margin: 2em 0;
+
+      .is-expanded {
+        max-width: 250px;
+      }
+  }
+
+  a.hero-action {
     margin: 2em auto;
 
     @include tablet {
       margin: 1.5em 0;
     };
-
   }
 }
 
