@@ -3,3 +3,37 @@
 analytics.load("PeeC2J5foYare7wdLnPTFxws2uRSTvgE");
 analytics.page();
 }}();
+
+var ZAPIER_URL = "https://hooks.zapier.com/hooks/catch/1987664/d1v9t8/";
+
+function App() {
+  var vm = this;
+
+  vm.newLead = newLead;
+  vm.handleInvitationForm = handleInvitationForm;
+
+  function handleInvitationForm(event) {
+    var form = event.target;
+    var email = form.querySelector('input[type="email"]').value;
+    sendZapier(email);
+    form.innerHTML = '<br><h2 class="title is-3">Thank you!</h2> <p>You will be contacted soon.<p>';
+  }
+
+  function newLead(email) {
+    // sendZapier(email);
+
+    thankYouLead();
+  }
+
+  function thankYouLead() {
+
+  }
+
+  function sendZapier(email) {
+      axios.post(ZAPIER_URL, 'email=' + email);
+  }
+
+  return this;
+}
+
+window.App = new App();

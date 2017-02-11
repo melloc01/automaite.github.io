@@ -3,7 +3,7 @@
     <div class="columns">
       <div class="column is-5 Hero--root__text-container">
         <h1 class="title is-2" style="margin-top: em">Put AI to work for you</h1>
-        <p class="is-4">Connect your data with machine learning solutions via simple <br> <strong>recipes</strong> that anyone can use to make sense of their data</p>
+        <p class="is-4">Connect your data with machine learning solutions via simple <br class="is-hidden-mobile"> 'recipes' that anyone can use to make sense of their data</p>
 
         <ul>
           <li>
@@ -17,15 +17,16 @@
           </li>
         </ul>
         <div class="has-mobile-centered-text">
-          <form class="" action="index.html" method="post">
+
+          <form id="invitation-form" class="toggle-submit" onsubmit="event.preventDefault(); App.handleInvitationForm(event)">
             <p class="control hero-action has-addons">
-              <input class="input is-info" type="text" placeholder="E-mail">
-              <a class="button is-info">
+              <input class="input  is-info" type="email" placeholder="E-mail" required="true">
+              <button class="button is-info" type="submit">
                 Get an invite
-              </a>
+              </button>
             </p>
           </form>
-          <!-- <a href="https://www.getdrip.com/forms/87050110/submissions/new" class="button is-info is-medium" target="_blank">Get an invite</a> -->
+          
         </div>
       </div>
       <div class="column is-7 image-container">
