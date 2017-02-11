@@ -19,14 +19,23 @@
         <div class="has-mobile-centered-text">
 
           <form id="invitation-form" class="toggle-submit" onsubmit="event.preventDefault(); App.handleInvitationForm(event)">
-            <p class="control hero-action has-addons">
+            <p  id="form-content" class="control hero-action has-addons">
               <input class="input  is-info" type="email" placeholder="E-mail" required="true">
               <button class="button is-info" type="submit">
                 Get an invite
               </button>
             </p>
+
+            <br>
+
+            <article id="form-message" class="message is-info" hidden>
+              <div class="message-body">
+                <h2 class="title is-4">Thank you!</h2>
+                <p>We will get back to you shortly.<p>
+              </div>
+            </article>
           </form>
-          
+
         </div>
       </div>
       <div class="column is-7 image-container">
