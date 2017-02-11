@@ -6,13 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-name             : Rafael Mello Campanari
+name             : Automaite.com
 version          : 0.5
 title            : automaite.com
 email            : rafael@automaite.com
-description      : Automaite's website
 url              : "https://automaite.com"
 twitter_username :
 github_username  : melloc01
 year             : 2017
 markdown         : kramdown
+
+# SEO
+keywords         : automaite, artificial intelligence, ai, easy to use, easy ui, good ux, ai for everyone, put ai to work for you, photomaite, receiptmaite
+description      : Automaite brings AI to the masses, our goal is to put AI to work for everyone, including you.
+share_img        : https://automaite.com/assets/img/favicon.png
