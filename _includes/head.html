@@ -20,13 +20,13 @@
   <meta name="msapplication-TileImage" content="https://automaite.com/assets/img/favicon.png"/>
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:site" content="@home"/>
-  <meta property="twitter:title" content="Veridu.com - Global identity verification based on your online activity"/>
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title}}{% endif %}"/>
   <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description}}{% endif %}"/>
   <meta property="twitter:image" content="{% if page.share_img %}{{ page.share_img }}{% else %}{{ site.share_img}}{% endif %}"/>
   <meta property="twitter:url" content="{{ site.url }}"/>
   <meta property="search:title" content="{{ site.name }}"/>
   <meta property="search:species" content="Home"/>
-  <meta property="search:publisher" content="www.veridu.com"/>
+  <meta property="search:publisher" content="automaite.com"/>
   <meta property="search:image" content="{% if page.share_img %}{{ page.share_img }}{% else %}{{ site.share_img}}{% endif %}" />
   <meta itemprop="name" content="{{ site.name }}">
   <meta itemprop="url" content="{{ site.url }}">
@@ -36,7 +36,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description}}{% endif %}">
-  <meta property="og:title" content="Veridu.com">
+  <meta property="og:title" content="Automaite.com">
   <meta property="og:locale" content="en_GB">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:image" content="{% if page.share_img %}{{ page.share_img }}{% else %}{{ site.share_img}}{% endif %}">
