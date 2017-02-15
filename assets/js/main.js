@@ -6,7 +6,7 @@ analytics.load("PeeC2J5foYare7wdLnPTFxws2uRSTvgE");
 analytics.page();
 }}();
 
-var ZAPIER_URL = "https://hooks.zapier.com/hooks/catch/1987664/d1v9t8/";
+var ZAPIER_URL = "https://hooks.zapier.com/hooks/catch/1999930/mt5e2c/";
 
 function App() {
   var vm = this;
